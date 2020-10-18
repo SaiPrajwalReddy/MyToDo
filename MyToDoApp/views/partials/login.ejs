@@ -1,0 +1,13 @@
+<h2 align = "center">Welcome to ToDo</h2>
+<h2 align = "center">Manage your todos here</h2>
+<div style="float:right;padding:20px;">
+<%if(user != null){%>
+<table><tr><td>
+<p>Welcome <%=user.displayName%></p>
+</td>
+<td>
+<button class="button button4" onclick="location.href='/logout'">LOGOUT</button></td></tr></table>
+<%}else{%>
+<button class="button button4" onclick="location.href='/auth/google'">LOGIN</button>
+<%}%>
+</div>

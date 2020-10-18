@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<head>
+<%- include('partials/includes') %>
+</head>
+<body>
+<%- include('partials/login') %>
+<div>
+</br></br></br></br>
+<%- include('partials/addToDo') %>
+<%todoTasks.forEach(details=>{%>
+<table align = "center" style="table-layout: fixed;" width="100%">
+<tr style="background-color:#f1f1f1;border: 1px solid black;">
+<%if (details._id == taskId) { console.log(details.content+" "+taskId)%>
+<td align="left"  style="overflow-wrap: break-word;">
+<form action = "/edit/<%=details._id%>" method = "POST" class = "edit">
+<input type="text" name = "content" value = "<%=details.content%>"></input>
+<button class="button button4" type = "submit">Confirm</button>
+<button class="button button4" type = "submit" onclick="location.href='/'">Cancel</button>
+</form>
+</td>
+<%} else { console.log(details._id+" "+taskId)%>
+<td>
+<%=details.content%>
+<button class="button button4" onclick="location.href='/edit/<%=details._id%>'" align = "right">
+<span class="fa fa-edit"></span>
+</button>
+<button class="button button4" onclick="location.href='/remove/<%=details._id%> '" align = "right">
+<span class="fa fa-times"></span>
+</button>
+</td>
+<%}})%>
+</tr></table>
+</div>
+</body>
+

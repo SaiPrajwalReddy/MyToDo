@@ -1,0 +1,57 @@
+.button {
+  background-color: #f1f1f1;
+  border: 1px solid black;
+  color: black;
+  padding: 2vh;
+  text-align: center;
+  text-decoration: none;  
+  float:right
+  font-size: 1vh;  
+  cursor: pointer;  
+}
+
+.button1 {border-radius: 2px;}
+.button2 {border-radius: 4px;}
+.button3 {border-radius: 8px;}
+.button4 {border-radius: 1vh;}
+.button5 {border-radius: 80%;}
+
+a {
+      text-decoration:none;
+   }
+
+.container {
+  height: 200px;
+  position: relative
+  border: 3px solid black;
+}
+
+.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+ul {
+  list-style-type: none;
+ }
+
+ ul li {
+  background: #f1f1f1;  
+  margin: 5px;
+}
+
+@media screen and (max-width: 250px) {
+  
+  .test {
+  width: 90%;
+  display: block; /* Stops it from floating */
+  margin: auto; /* Ensures that it is centered */
+  margin-bottom: 25px; /* Space between the stacked elements */
+    
+  }
+  
+}
