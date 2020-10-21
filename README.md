@@ -18,12 +18,9 @@ The ToDo app has been built using the following technologies and javascript libr
   -   List Todos
   
  Future Features to be added for this project
-   -   Authentication using Google Oauth
-   -   Create Todos
-   -   Edit Todos
-    -   Enhancing the Todos as completed, in-progress
-    -   Sharing of Todos with other users
-    -   Hosting this application
+   -   Enhancing the Todos as completed, in-progress
+   -   Sharing of Todos with other users
+   -   Hosting this application
     
    How do we run this?
    
