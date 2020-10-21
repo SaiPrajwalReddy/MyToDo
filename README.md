@@ -10,7 +10,13 @@ The ToDo app has been built using the following technologies and javascript libr
   
   What is this?
   
-  A ToDo Application which supports the following features
+ A ToDo Application which supports the following features
+  -   MongoDB
+  -   Express.js
+  -   Node.js
+  -   express-session
+  -   mongoose
+  -   passport
       -     Authentication using Google Oauth
       -     Create Todos
       -     Edit Todos
