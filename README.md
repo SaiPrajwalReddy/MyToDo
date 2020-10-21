@@ -17,12 +17,10 @@ The ToDo app has been built using the following technologies and javascript libr
   -   Delete Todos
   -   List Todos
   
-  Future Features to be added for this project
-    -   Authentication using Google Oauth
-    -   Create Todos
-    -   Edit Todos
-    -   Delete Todos
-    -   List Todos
+ Future Features to be added for this project
+   -   Authentication using Google Oauth
+   -   Create Todos
+   -   Edit Todos
     -   Enhancing the Todos as completed, in-progress
     -   Sharing of Todos with other users
     -   Hosting this application
