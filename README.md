@@ -11,11 +11,11 @@ The ToDo app has been built using the following technologies and javascript libr
   What is this?
   
   A ToDo Application which supports the following features
-    -     Authentication using Google Oauth
-    -     Create Todos
-    -     Edit Todos
-    -     Delete Todos
-    -     List Todos
+      -     Authentication using Google Oauth
+      -     Create Todos
+      -     Edit Todos
+      -     Delete Todos
+      -     List Todos
     
    Future Features to be added for this project
     -   Sorting the todos on the most recently added ones
